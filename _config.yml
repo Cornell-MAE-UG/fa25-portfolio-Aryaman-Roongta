@@ -13,7 +13,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : Aryaman Roongta
 description              : Aryaman Roongta - Projects and CV 
-baseurl                  : "" # Set this to your repo name 
+baseurl                  : "https://cornell-mae-ug.github.io/fa25-portfolio-Aryaman-Roongta/" # Set this to your repo name 
 
 # Theme and Style
 theme: jekyll-theme-minimal
