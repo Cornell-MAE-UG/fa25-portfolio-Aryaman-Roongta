@@ -3,7 +3,7 @@ layout: project
 title: Design and Analysis of a Weight-Lifting Mechanism
 description: By Aryaman Roongta
 technologies: [None]
-image: /assets/images/lifting-geometry.png
+image: /assets/images/lifting-geometry.jpeg
 ---
 
 ## Constraints and Goal
