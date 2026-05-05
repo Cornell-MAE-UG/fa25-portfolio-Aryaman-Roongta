@@ -8,7 +8,7 @@ image: assets/images/ThumbnailODP5.png
 
 <div style="border:1px solid #ddd; border-radius:10px; padding:1rem 1.25rem; margin:1rem 0 1.5rem 0; background:#fafafa;">
   <h2 style="margin-top:0;">Project Navigation</h2>
-  <p style="margin-bottom:0.5rem;">This page documents the full progression of our MAE 2250 vineyard pest-management project, from initial concept to prototype to final client-facing recommendation.</p>
+  <p style="margin-bottom:0.5rem;">This page documents the full progression of our MAE 2250 vineyard pest-management project, from initial concept to functional prototype to final client-facing recommendation.</p>
   <ul style="margin-bottom:0;">
     <li><a href="#client-pitch">Client Pitch</a></li>
     <li><a href="#functional-prototype">Functional Prototype</a></li>
@@ -16,54 +16,67 @@ image: assets/images/ThumbnailODP5.png
   </ul>
 </div>
 
-This project focuses on designing a **passive, low-labor, pre-harvest trap** for **spotted lanternflies (SLFs)** in **New York State industrial vineyards**. Because many grapes are mechanically harvested as juice or must, SLFs that enter the harvest stream are difficult to remove without contamination, added labor, or yield loss. Our team developed a modular trap concept that uses **methyl salicylate lure**, **funnel-guided entry**, **sticky capture surfaces**, and a **serviceable enclosure** to reduce SLF contamination before harvest.
+This project focuses on designing a **passive, low-labor, pre-harvest trap** for **spotted lanternflies (SLFs)** in **New York State industrial vineyards**. Because many grapes are mechanically harvested as juice or must, SLFs that enter the harvesting stream are difficult to remove without contamination, quality loss, or added labor. Our team developed a modular trap concept that uses **methyl salicylate lure**, **funnel-guided entry**, **sticky capture surfaces**, and a **serviceable enclosure** to reduce SLF contamination before harvest.
 
 ---
 
 ## <a id="client-pitch"></a>Client Pitch
 
-For this project, we are developing a **passive, pre-harvest trap** to help **New York State industrial vineyards** keep harvested grapes clear of **spotted lanternflies (SLFs)** while minimizing additional labor.
+For this project, we proposed a **passive, pre-harvest SLF trap** for **New York State industrial vineyards**. The goal was to create a **vineyard-compatible**, **low-labor**, and **serviceable** device that could help reduce SLF contamination before machine harvesting.
 
 ### Problem Statement
 
-New York State farmers are trying to keep harvested grapes clear of spotted lanternflies in industrial vineyards, but they lack the human labor to do so efficiently. Since a large amount of grapes are machine-harvested as **juice/must**, it is difficult to remove SLFs post-harvest without **yield loss** or **contamination**. Our approach is therefore to **lure and capture SLFs pre-harvest** with a modular trap design.
+Industrial vineyards in New York State need a practical way to reduce spotted lanternfly contamination **before harvest**. Because many grapes are mechanically harvested as juice or must, SLFs that enter the harvest stream are difficult to remove without added labor, quality degradation, or yield loss. Rather than designing a full eradication system, our team focused on the narrower and more practical sub-problem of **attracting and capturing SLFs near vines before they enter the harvester**.
+
+### Client Need
+
+The client does not need a complex active system. They need a **passive device** that can:
+
+- be placed near **vineyard edges or hotspots**,
+- be **serviced quickly**,
+- be **moved as pest pressure changes**,
+- and operate with **low labor and low complexity**.
 
 ### Proposed Direction
 
-Our concept combines:
+Our design direction was a **passive box-shaped trap** built around:
 
-- a **box enclosure** to contain captured SLFs,
-- a **chemical diffuser** using methyl salicylate,
-- a **funnel entrance** to guide insects inward,
-- an **adjustable iris opening** to control entry,
-- and a **removable side panel** for maintenance and replacement of internal components.
+- **methyl salicylate** as the lure,
+- a **removable vial** and **cotton-ball wick** for passive scent release,
+- a **funnel entry** to guide SLFs inward,
+- an **adjustable iris** to tune opening size,
+- **replaceable sticky panels** for capture,
+- and a **removable side panel** for maintenance.
 
-### Intended Impact
+### Why This Direction
 
-This design aims to:
+This concept was selected because it directly supports the client’s priorities:
 
-- reduce **labor burden** on vineyard operators,
-- protect **grape quality** by limiting SLF contamination,
-- support **pre-harvest pest management**,
-- and create a **serviceable modular trap** that can be improved through future iterations.
+- **passive operation** without pumps or electronics,
+- **quick maintenance** through a removable side panel and lure module,
+- **modular replacement** of sticky inserts and lure,
+- and **compatibility with vineyard perimeter deployment**.
 
 ---
 
 ## <a id="functional-prototype"></a>Functional Prototype
 
-The purpose of this prototype was to test the **mechanical feasibility** of the trap architecture before full field testing. Rather than proving final trapping performance, this iteration focused on whether the main subsystems could be fabricated, assembled, and operated as intended.
+The purpose of the functional prototype was to test whether the main subsystems of the trap could be fabricated, assembled, and operated as intended. This prototype was not meant to prove full vineyard performance; instead, it was built as a **mechanical proof-of-concept** to validate the trap architecture before controlled field testing.
 
 ---
 
 ## Prototype Overview
 
-The functional prototype consists of the following main subsystems:
+The functional prototype consists of the following major subsystems:
 
-- **Box housing** made from laser-cut wooden plates
-- **Removable side panel** for user access
+- **Laser-cut body panels** forming the box structure
+- **Removable side panel** for maintenance access
 - **3D-printed funnel**
-- **3D-printed iris mechanism**
-- **Chemical diffuser holder and connector**
+- **3D-printed adjustable iris**
+- **Removable vial holder** and passive diffuser components
+- **Sticky capture surface** inside the box
+
+The current prototype is best understood as a **functional proof-of-concept**, not a final vineyard product.
 
 ---
 
@@ -71,265 +84,222 @@ The functional prototype consists of the following main subsystems:
 
 ### Box Housing
 
-The main box was fabricated by laser cutting the **top, base, left, right, and back plates** from sheets of wood.
+The main body of the trap was fabricated from laser-cut panels that create the box enclosure and support the internal lure and capture components.
 
 <img src='{{ "/assets/images/LaserBox1.png" | relative_url }}' alt="LaserBox1" style="width:100%; max-width:700px; height:auto; display:block; margin:1rem auto;" />
 <img src='{{ "/assets/images/LaserBox2.png" | relative_url }}' alt="LaserBox2" style="width:100%; max-width:700px; height:auto; display:block; margin:1rem auto;" />
 
 ### Removable Side Panel
 
-The removable side panel was made by laser cutting the plate and two mounts from sheets of wood.
+The removable side panel provides the primary access point for servicing the trap. Workers can use it to replace sticky sheets and refill the lure without disassembling the full device.
 
 <img src='{{ "/assets/images/RemovablePanel.png" | relative_url }}' alt="RemovablePanel" style="width:100%; max-width:700px; height:auto; display:block; margin:1rem auto;" />
 
 ### Funnel
 
-The funnel was **3D printed** and mounted above the top plate.
+The funnel directs SLFs following the lure into the trap body.
 
 <img src='{{ "/assets/images/Funnel.png" | relative_url }}' alt="Funnel" style="width:100%; max-width:700px; height:auto; display:block; margin:1rem auto;" />
 
 ### Iris
 
-The iris mechanism was made by **3D printing all parts**.
+The iris mechanism provides an **adjustable opening** at the funnel entrance. A fixed opening would be simpler, but the iris allows users to tune the opening based on site conditions, observed insect size, and non-target insect concerns.
 
 <img src='{{ "/assets/images/Iris.png" | relative_url }}' alt="Iris" style="width:100%; max-width:700px; height:auto; display:block; margin:1rem auto;" />
 
 ### Chemical Diffuser
 
-The chemical diffuser used a separately **3D-printed diffuser holder and connector**, along with **cotton balls** as the absorbent material for methyl salicylate.
+The methyl salicylate lure is stored in a **removable vial**. **Cotton balls** contact the liquid and act as a passive wick, increasing exposed surface area and directing scent toward the funnel.
 
 <img src='{{ "/assets/images/Diffuser.png" | relative_url }}' alt="Diffuser" style="width:100%; max-width:700px; height:auto; display:block; margin:1rem auto;" />
 
 ---
 
-## Assembly
+## How the Prototype Works
 
-The overall trap was assembled as follows:
+The final trap concept operates as follows:
 
-1. Press fit the five plates of the box, orienting the left, right, and base plates so that the smooth edges face the edge with two shorter slots and one longer slot of the top plate.
-2. Glue one M4 screw to the hole on each of the mounts, orient the mounts so that the screws aim outward from the box, and glue the extrusions of the mounts to the shorter slots on the top plate. Then hang the removable side panel on the screws.
-3. Screw the funnel from above the top plate with M4 screws and bolts, letting the opening of the funnel face the removable side panel.
-4. Screw the diffuser connector from below the top plate with M3 screws and bolts, aligning the circular ring of the connector to the bottom of the funnel.
-5. Place one cotton ball in the diffuser holder and slide the holder onto the connector.
-6. Place the iris blades on the bottom plate, orient the blades so that the iris is at maximum opening, then put on the top plate and adjust the opening to the required size.
+1. **Methyl salicylate** is stored in a removable vial.
+2. **Cotton balls** wick the liquid and passively release scent.
+3. The scent is directed toward the **funnel entrance**.
+4. SLFs following the lure enter through the funnel.
+5. Once inside, they are immobilized on **replaceable sticky panels**.
+6. The **side panel** allows workers to replace sticky inserts and refill the lure quickly.
+7. The **iris** can be adjusted to control entry size.
+
+### Use Procedure
+
+A typical service and deployment procedure is:
+
+1. Remove the side panel.
+2. Slide out the vial holder.
+3. Refill the methyl salicylate.
+4. Insert cotton balls.
+5. Install the sticky sheet in a U-shape inside the trap.
+6. Close the side panel.
+7. Adjust the iris opening.
+8. Place the device near vineyard edges or SLF hotspots.
+
+Sticky sheets and lure are intended to be replaced approximately **every two weeks**, pending field validation.
 
 ---
 
 ## What Was Tested
 
-This prototype focused on testing three main features:
+Because live SLF availability was limited during the prototype period, testing focused on **bench validation of the highest-risk mechanical features**, rather than biological capture performance.
 
-1. **Iris mechanism**
-2. **Integration of diffuser attachment**
-3. **Removable side panel**
+The main bench-tested areas were:
 
----
-
-## Test 1: Iris Mechanism
-
-The iris consists of the adjustable opening on the top of the box. We tested this feature because it allows the chemical to diffuse into the environment while also providing an opening large enough to attract SLFs into the box.
-
-### Success Criteria
-
-The iris should:
-
-- open to a diameter greater than the maximum SLF size,
-- operate smoothly,
-- and avoid mechanical failure during repeated use.
-
-### Outcome
-
-The iris mechanism partially succeeded. The iris opened to **80 mm in diameter**, while the size of an adult SLF is approximately **12.7–25.4 mm**, so the opening size requirement was satisfied.
-
-However, some components of the iris broke during assembly, and we were not able to attach the iris to the box ceiling in this prototype. This means the concept worked in principle, but the durability and integration need improvement in the next iteration.
-
-Chemical diffusion effectiveness was not tested in this prototype and will be evaluated in future experiments.
+1. **Iris opening and repeated operation**
+2. **Vial-holder integration and serviceability**
+3. **Removable side panel access and reattachment**
 
 ---
 
-## Test 2: Integration of Diffuser Attachment
+## Success Criteria
 
-The diffuser attachment holds the methyl salicylate chemical. This test was intended to determine whether the diffuser could be integrated into the trap assembly without interfering with the operation of the iris.
+Based on client feedback, the revised success criteria focused on **measurable performance**, not just whether a part opened or closed.
 
-### Success Criteria
+The project success criteria are:
 
-The diffuser should:
-
-- attach securely,
-- allow the diffuser holder to slide in and out,
-- and avoid interfering with the iris mechanism.
-
-### Outcome
-
-The diffuser holder was able to **slide in and out successfully**, showing that the serviceability concept worked.
-
-However, the connector to the iris interfered with assembly inside the box due to **spatial conflict**. Because of this, the part of the connector that causes interference should be removed or redesigned in the next prototype so that the diffuser and iris can coexist properly.
+- **SLF Entry:** The iris must open to at least **40 mm**, exceeding adult SLF body size.
+- **Maintenance:** Sticky panel and lure replacement should take **under 3 minutes per trap** with no special tools.
+- **Durability:** The iris and removable panel should survive **100 open-close cycles** without fracture or jamming.
+- **Lure Life:** The methyl salicylate reservoir should last **at least 14 days** between refills.
+- **Capture Value:** The trap should capture **at least 25% more SLFs than a control sticky card** over the same period.
 
 ---
 
-## Test 3: Removable Side Panel
+## Testing Results
 
-This panel opens and closes the trap box and allows the user to access the inside when the sticky trap or chemical needs to be replaced.
+### Iris Opening
 
-### Success Criteria
+The iris opened to **45 mm**, which is larger than typical adult SLF dimensions. This means the entry-size criterion was met.
 
-The removable side panel should:
+### Maintenance Time
 
-- fully enclose the trap without gaps,
-- be easy to remove and reattach,
-- and provide practical maintenance access.
+Replacing the sticky panel and lure took approximately **45 to 90 seconds** across group members. This is comfortably below the **3-minute** target, although it should still be timed more formally during field trials.
 
-### Outcome
+### Durability
 
-The side panel could be **opened and closed successfully**, so the access concept worked.
+Repeated opening and closing showed **no major failure** over the tested operations. The mechanism functioned successfully, though printed-part friction should be reduced with lubrication or smoother surfaces in future versions.
 
-However, there was a **gap at the bottom of the box** where chemical could diffuse out and where SLFs could potentially escape. To solve this, we plan to add **two additional M4 screws on the bottom corners** in the next iteration to create a more secure enclosure.
+### Lure Life
 
----
+The methyl salicylate lure in cotton balls lasted **over 20 days indoors**. This exceeds the **14-day** target in indoor conditions, but outdoor evaporation still needs to be measured.
 
-## What the Prototype Showed
+### Capture Value
 
-This functional prototype showed that:
-
-- the box housing concept is viable,
-- the iris can open large enough for SLFs,
-- the diffuser can function as a removable module,
-- and the side panel can provide maintenance access.
-
-At the same time, the prototype revealed important design issues:
-
-- the iris needs improved assembly robustness,
-- the diffuser connector interferes with iris integration,
-- and the removable panel needs better sealing.
-
-Even though the prototype was not fully successful in every area, it was valuable because it exposed integration problems that were not obvious from concept design alone.
+This criterion has **not yet been field tested**. It remains the key biological validation metric for the next phase.
 
 ---
 
-## Success Criteria for the Full Project
+## What the Prototype Demonstrated
 
-Our project aims to design a trap to lure and kill adult SLF using methyl salicylate as a chemical attractant combined with sticky surfaces in outdoor environments.
+These tests show that the prototype is **mechanically ready for controlled field testing**, but not yet proven as a biologically validated vineyard product.
 
-The full project success criteria are:
+The prototype successfully demonstrated:
 
-- The trap should capture **at least 100 adult SLF per box** before requiring servicing.
-- The trap should remain **structurally intact and functional after at least 14 consecutive days** of outdoor exposure, including rain and wind.
-- A user should be able to replace both the **chemical diffuser and sticky trap components in under 2 minutes**.
-- The methyl salicylate diffuser should provide a **steady, detectable release for at least 14 days**, with a consistent daily mass loss of at least **0.1 g/day**.
+- **lure storage**
+- **passive scent diffusion**
+- **adjustable entry**
+- **sticky capture architecture**
+- **quick maintenance access**
+
+Bench testing also confirmed that:
+
+- the **vial holder** slides in and out without interfering with the iris or funnel,
+- the **side panel** provides access to the sticky trap area and can be reattached successfully,
+- and the overall design is mechanically functional enough to move into the next testing phase.
+
+However, before outdoor deployment, improvements are still needed in:
+
+- **panel sealing**
+- **print tolerances**
+- **iris friction**
+- **weather resistance**
+- and **standardization of the lure and sticky-panel modules**
 
 ---
 
-## End-of-Semester Demonstration
+## Why the Iris Matters
 
-For the end-of-semester exhibition, we will demonstrate the **serviceability criterion** with a live demonstration of removing and replacing the chemical diffuser and sticky trap components using the removable side panel mechanism in under two minutes.
+The iris mechanism creates an **adjustable opening at the funnel entrance**. Although a fixed opening would be simpler, adjustability is useful because it allows users to tune the opening based on:
+
+- **site conditions**
+- **observed insect size**
+- and **non-target insect concerns**
+
+This makes the trap more flexible during field testing and future iteration.
 
 ---
 
-## Next Iteration
+## Next Testing Phase
 
-The next prototype should focus on:
+The next test should compare three groups:
 
-- redesigning the iris for better durability and assembly,
-- removing geometric interference between the diffuser connector and iris,
-- improving sealing at the removable side panel,
-- and testing chemical diffusion effectiveness experimentally.
+1. the trap **with methyl salicylate**
+2. an identical trap **without methyl salicylate**
+3. a **standard sticky card control**
+
+The most important decision metrics should be:
+
+- **SLFs captured per trap per day**
+- **non-target insects captured**
+- **lure mass loss**
+- **rain resistance**
+- **maintenance time per trap**
 
 ---
 
 ## <a id="client-report"></a>Client Report
 
-The final client report reframed the project around what matters most for vineyard deployment: **low labor**, **passive operation**, **quick servicing**, and **quantifiable evidence that the trap is worth field testing**.
+The final client report reframed the project around what matters most for vineyard deployment: **low labor**, **passive operation**, **quick servicing**, and **quantitative evidence that the design deserves field testing**.
 
-### Context and Problem Statement
+### Final Prototype and Application
 
-New York State industrial vineyards need a practical way to reduce SLF contamination **before machine harvesting**. Once SLFs enter the harvesting stream, they are difficult to remove without additional labor, quality loss, or contamination. The client therefore needs a **passive, vineyard-compatible device** that can be placed near vineyard edges or hotspots, moved as pressure changes, and serviced quickly.
-
-### Final Prototype and Proposed Solution
-
-Our final prototype is a **passive box-shaped SLF trap** using **methyl salicylate** as the lure.
-
-The main elements are:
-
-- a **removable vial** containing methyl salicylate,
-- **cotton balls** acting as a passive wick to increase exposed surface area and direct scent,
-- a **funnel entry** that guides insects into the trap,
-- an **adjustable iris** to control opening size,
-- **replaceable sticky panels** inside the trap,
-- and a **removable side panel** for fast maintenance.
-
-### How It Works / How It Is Used
-
-The trap is designed to be serviced and deployed with a simple workflow:
-
-1. Remove the side panel.
-2. Slide out the vial holder.
-3. Refill the methyl salicylate and insert cotton balls.
-4. Install the sticky sheet in a U-shape inside the trap.
-5. Close the side panel.
-6. Adjust the iris opening.
-7. Place the trap near vineyard edges or SLF hotspots.
-
-Sticky sheets and lure are intended to be replaced approximately **every two weeks**, pending validation in the field.
-
-### Revised Success Criteria and Testing Results
-
-The final report revised the success criteria to focus on **measurable performance**, not just whether parts physically function. The key criteria were:
-
-- **SLF Entry:** iris must open to at least **40 mm**
-- **Maintenance:** lure and sticky panel replacement in **under 3 minutes**
-- **Durability:** iris and removable panel survive **100 open-close cycles**
-- **Lure Life:** reservoir lasts **at least 14 days**
-- **Capture Value:** trap captures **at least 25% more SLFs** than a control sticky card
-
-Current prototype findings were promising for mechanical readiness:
-
-- the iris opened to **45 mm**, which is sufficient for adult SLF entry,
-- service operations took roughly **45–90 seconds** across group members,
-- repeated operation showed **no major failure** in the tested cycle range,
-- lure indoors lasted **over 20 days**,
-- but actual **biological capture performance has not yet been field validated**.
-
-### What These Results Mean
-
-These tests show that the prototype is **mechanically ready for controlled field testing**, but not yet proven as a biologically validated final product. The highest-risk subsystems were bench tested successfully enough to justify the next phase, but vineyard performance still needs to be demonstrated against real control conditions.
+Our final prototype is a **passive box-shaped trap** using **methyl salicylate** as the lure. The lure is held in a **removable vial**, and **cotton balls** act as a passive wick to direct scent toward the **funnel**. SLFs following the scent enter through the funnel and are immobilized on **replaceable sticky panels** inside the trap. A **removable side panel** allows workers to replace sticky sheets and refill the lure without disassembling the entire device. An **iris-style mechanism** adjusts the funnel opening to control entry size.
 
 ### Conclusion
 
-Our team recommends advancing the design to **controlled field testing**, not immediate large-scale vineyard deployment.
+We recommend advancing this design to **controlled field testing**, not immediate vineyard-scale deployment.
 
-The prototype already demonstrates the core functions needed for a passive pre-harvest SLF trap:
+The prototype demonstrates the correct mechanical functions for a passive pre-harvest trap:
 
-- lure storage,
-- scent diffusion,
-- adjustable entry,
-- sticky capture,
-- and quick maintenance access.
+- lure storage
+- scent diffusion
+- adjustable entry
+- sticky capture
+- quick maintenance access
 
 These functions directly address the client’s need for a **low-labor SLF reduction method before machine harvesting**.
 
 ### Recommendation for Next Steps
 
-The most important unanswered question is whether the methyl salicylate trap captures **meaningfully more SLFs than simpler control traps** under real vineyard conditions.
+The most important unanswered question is whether the methyl salicylate trap captures **meaningfully more SLFs than simpler control traps** in actual vineyard conditions.
 
-The next test should compare:
+If field testing shows:
 
-- the full trap **with methyl salicylate**
-- the same trap **without methyl salicylate**
-- a **standard sticky card control**
+- at least **25% higher SLF capture than a control sticky card**
+- while keeping service time under **3 minutes per trap every two weeks**
 
-The most important metrics should be:
+then the design is promising for further development.
 
-- SLFs captured per trap per day
-- non-target insects captured
-- lure mass loss
-- rain resistance
-- maintenance time per trap
+If not, the design should be simplified or redesigned around a stronger lure and capture strategy.
 
-If field testing shows at least **25% greater SLF capture than a control sticky card** while keeping service time under **3 minutes per trap every two weeks**, the design would be promising for continued development. If not, it should be simplified or redesigned around a stronger lure and capture strategy.
+### Field-Ready Improvements
+
+A field-ready version should include:
+
+- **UV- and rain-resistant materials**
+- **improved panel sealing**
+- **smoother iris surfaces**
+- a **standardized lure cartridge**
+- and a more guided **sticky-panel insert**
 
 ---
 
 ## Supporting Documentation
 
 - [View Functional Prototype PDF]({{ "/assets/ODP5PDF.pdf" | relative_url }})
-- [View Final Client Report PDF]({{ "/assets/MAE2250___ODP_Final_Client_Report.pdf" | relative_url }})
+- [View Final Client Report PDF]({{ "/assets/MAE2250_ODP_Final_Client_Report.pdf" | relative_url }})
